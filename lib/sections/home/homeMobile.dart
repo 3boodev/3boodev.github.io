@@ -92,7 +92,7 @@ class _HomeMobileState extends State<HomeMobile> {
                                 ? Colors.black
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
-                        text: [git remote set-url origin https://github.com/3boodev/3boodev.github.io.git
+                        text: [
                           " Mobile Developer ",
                           " Flutter Developer "
                         ]),
