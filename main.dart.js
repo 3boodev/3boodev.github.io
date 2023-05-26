@@ -81838,7 +81838,7 @@ i=A.b0(a7,i,a7)
 a4=b1*0.05
 a5=A.a([new A.br(B.aT,new A.kH("Resume",new A.Yc(),a7),a7),A.aK(a7,a7,B.k,a7,a7,new A.bG(a7,a7,new A.bW(B.m,B.m,new A.bg(B.am,2,B.D,-1),B.m),a7,a7,a7,B.L),a7,a7,a7,a7,a7,a7,a4)],b)
 for(a6=this.c,a0=0;a0<3;++a0)a5.push(new A.qO($.art[a0],$.ars[a0],a6[a0],a7))
-o=A.f1(A.aK(a7,A.c2(A.a([new A.bT("Who am I?",l,a7,a7),k,new A.bT("I'm Abdullah Abdelsamad, a Mobile developer, and UI-UX designer.",j,a7,a7),h,new A.bT(u.P,g,a7,a7),f,e,d,new A.bT("Technologies I have worked with:",c,a7,a7),a,a1,a2,m,a3,i,A.bn(a5,B.p,B.o,B.r)],b),B.an,B.o,B.r),B.k,a7,a7,a7,a7,a7,a7,new A.ah(n,0,0,0),a7,a7,a7),o)
+o=A.f1(A.aK(a7,A.c2(A.a([new A.bT("Who am I?",l,a7,a7),k,new A.bT("I'm Abdullah Abdelsamad, SoftWear Engineer as Mobile Developer.",j,a7,a7),h,new A.bT(u.P,g,a7,a7),f,e,d,new A.bT("Technologies I have worked with:",c,a7,a7),a,a1,a2,m,a3,i,A.bn(a5,B.p,B.o,B.r)],b),B.an,B.o,B.r),B.k,a7,a7,a7,a7,a7,a7,new A.ah(n,0,0,0),a7,a7,a7),o)
 return A.aK(a7,A.c2(A.a([new A.ho("\nAbout Me",a7),new A.hp("Get to know me :)",a7),r,A.bn(A.a([q,o,A.aK(a7,a7,B.k,a7,a7,a7,a7,a7,a7,a7,a7,a7,p?a4:b1*0.1)],b),B.p,B.o,B.r)],b),B.p,B.o,B.r),B.k,s,a7,a7,a7,a7,a7,new A.ah(a9,0,a9,0),a7,a7,a7)}}
 A.Yc.prototype={
 $0(){var s=window
