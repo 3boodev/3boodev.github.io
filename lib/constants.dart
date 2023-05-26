@@ -68,16 +68,8 @@ final kServicesTitles = [
   "Open Source - GitHub",
 ];
 
-// final kServicesDescriptions = [
-//   "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-//   "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
-//   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-//   "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images with interesting topics.\nMy Medium profile @mhamzadev",
-//   "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nMy GitHub Profile @mhmzdev",
-// ];
-
 final kServicesDescriptions = [
-  "- Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
+  "- Develop Mobile Apps (Android - IOS) \n- Integrate Diff 3rd Party Solutions \n- APIs Using [Deno - Lumen]",
   "- Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
   "- Rapid API via Lumen\n- Working REST\n- Quick & Working APIs \n- Secure Data Saver",
   "- Awesome DashBoards\n- Response DashBoards \n- SEO friendly\n- Contain Every Thing and more..!",
@@ -86,8 +78,9 @@ final kServicesDescriptions = [
 
 final kServicesLinks = [
   "https://nafezly.com/u/Abdallah_Elshafay",
-  "https://nafezly.com/u/Abdallah_Elshafay",
-  "https://nafezly.com/u/Abdallah_Elshafay",
+  "https://github.com/3boodev",
+
+  "https://github.com/3boodev",
   "https://medium.com/@a.abdelsamad.al",
   "https://github.com/3boodev"
 ];
@@ -157,7 +150,13 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Benisufe,Egypt",
+  "Elnozha - Cairo,Egypt",
   "(+20) 155 2252349",
+  "a.abdelsamad.al@gmail.com"
+];
+
+final kContactLinks = [
+  "https://www.google.com.eg/maps/@30.110497,31.3598704,14.06z?entry=ttu",
+  "https://wa.me/1552252349",
   "a.abdelsamad.al@gmail.com"
 ];

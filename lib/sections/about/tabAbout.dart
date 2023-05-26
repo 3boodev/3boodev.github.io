@@ -48,7 +48,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.032,
           ),
           Text(
-            "I'm Abdullah Abdelsamad, a Mobile developer, and UI-UX designer.",
+            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.035,
               fontWeight: FontWeight.w400,
@@ -59,7 +59,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm Gratuated from Faculty of Computers and Artifical Inteligence  enrolled in BeniSufe University, BeniSufe. I have been developing mobile apps for over 3 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Institute of Electrical and Electronics Engineers Student Branch(IEEE) Member.",
+            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.02,
               color: Colors.grey[500],
@@ -153,10 +153,10 @@ class AboutTab extends StatelessWidget {
                     onPressed: () {
                       kIsWeb
                           ? html.window.open(
-                              'https://drive.google.com/file/d/1yzDSaHuyA_-cfwZD1S2IJp5iVDOXqAEu',
+                              'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link',
                               "pdf")
                           : launchURL(
-                              'https://drive.google.com/file/d/1yzDSaHuyA_-cfwZD1S2IJp5iVDOXqAEu');
+                              'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link');
                     }),
               ),
               Container(

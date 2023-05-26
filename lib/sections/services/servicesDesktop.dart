@@ -141,19 +141,16 @@ class ServiceCardBackWidget extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
+              serviceTitle == kServicesTitles[0]
+                  ? launchURL(kServicesLinks[0]):
+              serviceTitle == kServicesTitles[1]
+                  ? launchURL(kServicesLinks[1]):
+              serviceTitle == kServicesTitles[2]
+                  ? launchURL(kServicesLinks[2]):
               serviceTitle == kServicesTitles[3]
                   ? launchURL(kServicesLinks[3])
-                  : serviceTitle == kServicesTitles[4]
-                      ? launchURL(kServicesLinks[4])
-                      : Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => ServiceDetails(
-                              title: serviceTitle,
-                              dec: serviceDesc,
-                            ),
-                          ),
-                        );
+                  :  launchURL(kServicesLinks[4]);
+
             },
             child: Text(
               "Details",

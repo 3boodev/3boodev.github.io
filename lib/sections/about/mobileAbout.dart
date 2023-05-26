@@ -52,7 +52,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.028,
           ),
           Text(
-            "I'm Abdullah Abdelsamad, \nSoftWare Engineer as Mobile Developer.",
+            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
@@ -144,10 +144,10 @@ class AboutMobile extends StatelessWidget {
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(
-                                'https://drive.google.com/file/d/1yzDSaHuyA_-cfwZD1S2IJp5iVDOXqAEu',
+                                'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link',
                                 "pdf")
                             : launchURL(
-                                'https://drive.google.com/file/d/1yzDSaHuyA_-cfwZD1S2IJp5iVDOXqAEu');
+                                'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link');
                       }),
                 ),
                 Container(

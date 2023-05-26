@@ -28,9 +28,9 @@ class Footer extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () => launchURL("https://github.com/Abdalla2"),
+              onTap: () => launchURL("https://github.com/3boodev"),
               child: Text(
-                "Flutter",
+                "3boodev",
                 style: TextStyle(color: Colors.blue),
               ),
             )

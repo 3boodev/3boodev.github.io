@@ -52,7 +52,7 @@ class PortfolioDesktop extends StatelessWidget {
           OutlinedCustomBtn(
               btnText: "See More",
               onPressed: () {
-                launchURL("https://github.com/Abdalla2");
+                launchURL("https://github.com/3boodev");
               })
         ],
       ),
