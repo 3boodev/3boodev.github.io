@@ -29,7 +29,7 @@ class AboutDesktop extends StatelessWidget {
       child: Column(
         children: [
           CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionSubHeading(text: "Get to know me ❤️"),
           SizedBox(height: 30.0),
           Row(
             children: [
@@ -55,7 +55,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Abdullah Abdelsamad, a Mobile developer, and UI-UX designer.",
+                        "I'm Abdullah Abdelsamad, SoftWare Engineer as Mobile Developer.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,

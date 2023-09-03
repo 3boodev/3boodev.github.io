@@ -29,7 +29,7 @@ class AboutMobile extends StatelessWidget {
       child: Column(
         children: [
           CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me "),
+          CustomSectionSubHeading(text: "Get to know me ❤️"),
           SizedBox(height: 5,),
           Image.asset(
             'assets/mob.png',

@@ -28,7 +28,7 @@ class AboutTab extends StatelessWidget {
       child: Column(
         children: [
           CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionSubHeading(text: "Get to know me ❤️"),
           Image.asset(
             'assets/mob.png',
             height: height * 0.3,
