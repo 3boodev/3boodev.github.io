@@ -94,6 +94,12 @@ final kProjectsBanner = [
   "assets/projects/getfitB.png",
   "assets/projects/restcafeB.png",
   "assets/projects/setelbanatB.png",
+
+  "assets/projects/assetsB.png",
+  "assets/projects/easeB.png",
+  "assets/projects/scsB.png",
+  "assets/projects/expo-UB.png",
+  "assets/projects/expo-MB.png",
 ];
 
 final kProjectsIcons = [
@@ -104,6 +110,11 @@ final kProjectsIcons = [
   "assets/projects/getfit.png",
   "assets/projects/restcafe.png",
   "assets/projects/setelbanat.png",
+  "assets/projects/assets.JPG",
+  "assets/projects/easeme.JPG",
+  "assets/projects/scs.JPG",
+  "assets/projects/expo.JPG",
+  "assets/projects/expo.JPG",
 ];
 
 final kProjectsTitles = [
@@ -114,6 +125,11 @@ final kProjectsTitles = [
   "Get-Fit",
   "Rest-Cafe",
   "Set-Elbanat",
+  "Assets Heart",
+  "Ease-ME",
+  "SCS",
+  "Exponile-Customer",
+  "Exponile-Merchant",
 ];
 
 final kProjectsDescriptions = [
@@ -124,6 +140,11 @@ final kProjectsDescriptions = [
   "Do Exercise and workout from your home using GitFit app that developed using Flutter",
   "Ordering and Deliver food app and on-site Serve app from Resturants using Rest-Cafe Application",
   "Beauty app and ordering things for Beauty Centers. ",
+  "Assets Heart for All Hospitals in Egypt in any Field [Police - Military - Public - Private] For Mintanance or Check Machines Health",
+  "Ease-Me to Do any Service from communications companies [We - Vodafone - Etisalat - Orange]",
+  "SCS for Special Care Services for any Person want to choose Service and enjoy with US",
+  "ExpoNile is an Ecommerce PlatForm as MultiVendor User Can Buy Anu thing You Want with many Categories and More than 100K Types of Products",
+  "ExpoNile is an Ecommerce PlatForm as MultiVendor Merchant Can Register his Shop And Add [Products - Offers] and So On , Observe Customers Orders",
 ];
 
 final kProjectsLinks = [
@@ -134,6 +155,11 @@ final kProjectsLinks = [
   "https://github.com/3boodev",
   "https://github.com/3boodev",
   "https://github.com/3boodev",
+  "https://github.com/3boodev",
+  "https://github.com/3boodev",
+  "https://scsco.mystrikingly.com/",
+  "https://www.exponile.com/en",
+  "https://www.exponile.com/en/merchant",
 ];
 
 // Contact

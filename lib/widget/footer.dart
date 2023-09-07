@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/adaptiveText.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart' ;
 import 'package:provider/provider.dart';
 
 class Footer extends StatelessWidget {
