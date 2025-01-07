@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: '3bood',
+        title: '3boodev',
         theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
         initialRoute: "/",
         routes: {

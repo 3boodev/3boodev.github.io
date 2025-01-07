@@ -22,7 +22,7 @@ class NavBarLogo extends StatelessWidget {
             ),
           ),
           Text(
-            "3bood",
+            "3boodev",
             style: TextStyle(
               fontFamily: "Agustina",
               fontSize: height ?? 20,
