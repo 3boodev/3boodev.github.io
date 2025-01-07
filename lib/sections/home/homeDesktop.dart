@@ -71,24 +71,14 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 AdaptiveText(
-                  "Abdullah",
+                  "Abdullah Alamary",
                   style: GoogleFonts.montserrat(
-                      fontSize: width < 1200 ? height * 0.085 : height * 0.095,
-                      fontWeight: FontWeight.w100,
+                      fontSize: width < 1200 ? height * 0.065 : height * 0.075,
+                      fontWeight: FontWeight.w400,
                       color: _themeProvider.lightTheme
                           ? Colors.black
                           : Colors.white,
-                      letterSpacing: 4.0),
-                ),
-                AdaptiveText(
-                  "Abdelsamad",
-                  style: GoogleFonts.montserrat(
-                      color: _themeProvider.lightTheme
-                          ? Colors.black
-                          : Colors.white,
-                      fontSize: width < 1200 ? height * 0.085 : height * 0.095,
-                      fontWeight: FontWeight.w500,
-                      letterSpacing: 5.0),
+                      letterSpacing: 2.0),
                 ),
                 EntranceFader(
                   offset: Offset(-10, 0),
@@ -120,16 +110,18 @@ class HomeDesktop extends StatelessWidget {
                 SizedBox(
                   height: height * 0.05,
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: List.generate(
-                    kSocialIcons.length,
-                    (index) => WidgetAnimator(
-                      child: SocialMediaIconBtn(
-                        icon: kSocialIcons[index],
-                        socialLink: kSocialLinks[index],
-                        height: height * 0.035,
-                        horizontalPadding: width * 0.005,
+                FittedBox(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: List.generate(
+                      kSocialIcons.length,
+                      (index) => WidgetAnimator(
+                        child: SocialMediaIconBtn(
+                          icon: kSocialIcons[index],
+                          socialLink: kSocialLinks[index],
+                          height: height * 0.035,
+                          horizontalPadding: width * 0.003,
+                        ),
                       ),
                     ),
                   ),

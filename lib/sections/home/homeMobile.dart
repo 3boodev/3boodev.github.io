@@ -59,24 +59,16 @@ class _HomeMobileState extends State<HomeMobile> {
                   height: height * 0.01,
                 ),
                  Text(
-                  "Abdullah",
+                  "Abdullah Alamary",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       color: _themeProvider.lightTheme
                           ? Colors.black
                           : Colors.white,
-                      fontWeight: FontWeight.w100,
-                      letterSpacing: 1.1),
+                      fontWeight: FontWeight.w400,
+                      letterSpacing: 1),
                 ),
-                Text(
-                  "Abdelsamad",
-                  style: GoogleFonts.montserrat(
-                      color: _themeProvider.lightTheme
-                          ? Colors.black
-                          : Colors.white,
-                      fontSize: height * 0.055,
-                      fontWeight: FontWeight.w500),
-                ),
+
                 Row(
                   children: [
                     Icon(
@@ -101,17 +93,19 @@ class _HomeMobileState extends State<HomeMobile> {
                 SizedBox(
                   height: height * 0.035,
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    for (int i = 0; i < kSocialIcons.length; i++)
-                      SocialMediaIconBtn(
-                        icon: kSocialIcons[i],
-                        socialLink: kSocialLinks[i],
-                        height: height * 0.03,
-                        horizontalPadding: 2.0,
-                      )
-                  ],
+                FittedBox(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      for (int i = 0; i < kSocialIcons.length; i++)
+                        SocialMediaIconBtn(
+                          icon: kSocialIcons[i],
+                          socialLink: kSocialLinks[i],
+                          height: height * 0.003,
+                          horizontalPadding: 2.0,
+                        )
+                    ],
+                  ),
                 )
               ],
             ),

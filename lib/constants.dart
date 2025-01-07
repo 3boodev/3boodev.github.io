@@ -6,19 +6,19 @@ const Color kPrimaryColor = Colors.teal;
 
 // Social Media
 const kSocialIcons = [
-  "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
-  "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
+  "https://img.icons8.com/?size=100&id=kQzCK4emnaD2&format=png&color=000000",
+  "https://img.icons8.com/?size=100&id=32309&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000",
-  "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-  "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-  "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
+  "https://img.icons8.com/?size=100&id=DHptQwHYbjnM&format=png&color=000000",
+  "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000",
+  "https://img.icons8.com/?size=100&id=110611&format=png&color=000000"
 ];
 
 const kSocialLinks = [
   "https://www.facebook.com/abdalla.android.33360",
-  "https://www.instagram.com/abdelsamadabdalla/",
+  "https://www.instagram.com/abdullah_elamary/profilecard/?igsh=NG5yMWhyZnI1N2Ex",
   "https://x.com/AbdullahAlamar0?t=saslo4jAis_ntvU51E7w5w&s=08",
-  "https://www.linkedin.com/in/abdullah-abdelsamad-8a5739140/",
+  "https://www.linkedin.com/in/abdullah-abdelsamad-8a5739140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   "https://github.com/3boodev",
   "https://medium.com/@a.abdelsamad.al"
 ];
@@ -44,11 +44,9 @@ final kCommunityLinks = [
 final kTools = [
   "Flutter",
   "Dart",
-  "JAVA",
   "Kotlin",
-  "Lumen",
-  "Strapi",
-  "MongoDB",
+  "KMP",
+  "CI/CD",
 ];
 
 // services

@@ -55,23 +55,14 @@ class HomeTab extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Abdullah",
+                  "Abdullah Alamary",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.07,
-                      fontWeight: FontWeight.w100,
+                      fontWeight: FontWeight.w400,
                       color: _themeProvider.lightTheme
                           ? Colors.black
                           : Colors.white,
-                      letterSpacing: 1.5),
-                ),
-                Text(
-                  "Abdelsamad",
-                  style: GoogleFonts.montserrat(
-                    fontSize: height * 0.07,
-                    fontWeight: FontWeight.w500,
-                    color:
-                        _themeProvider.lightTheme ? Colors.black : Colors.white,
-                  ),
+                      letterSpacing: 1),
                 ),
                 Row(
                   children: [
@@ -98,17 +89,19 @@ class HomeTab extends StatelessWidget {
                 SizedBox(
                   height: height * 0.045,
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    for (int i = 0; i < kSocialIcons.length; i++)
-                      SocialMediaIconBtn(
-                        icon: kSocialIcons[i],
-                        socialLink: kSocialLinks[i],
-                        height: height * 0.035,
-                        horizontalPadding: width * 0.01,
-                      )
-                  ],
+                FittedBox(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      for (int i = 0; i < kSocialIcons.length; i++)
+                        SocialMediaIconBtn(
+                          icon: kSocialIcons[i],
+                          socialLink: kSocialLinks[i],
+                          height: height * 0.035,
+                          horizontalPadding: width * 0.01,
+                        )
+                    ],
+                  ),
                 )
               ],
             ),

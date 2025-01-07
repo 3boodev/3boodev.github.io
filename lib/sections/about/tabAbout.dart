@@ -115,11 +115,11 @@ class AboutTab extends StatelessWidget {
                 children: [
                   AboutMeMetaData(
                     data: "Name",
-                    information: "Abdullah Abdelsamad",
+                    information: "Abdullah Alamary",
                   ),
                   AboutMeMetaData(
                     data: "Age",
-                    information: "23",
+                    information: "26",
                   ),
                 ],
               ),
