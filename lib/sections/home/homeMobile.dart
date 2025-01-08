@@ -41,7 +41,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HEY THERE! ",
+                      "WELCOME TO MY PORTFOLIO! ",
                       style: GoogleFonts.montserrat(
                           fontSize: height * 0.025,
                           color: _themeProvider.lightTheme
@@ -85,8 +85,8 @@ class _HomeMobileState extends State<HomeMobile> {
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
                         text: [
-                          " Mobile Developer ",
-                          " Flutter Developer "
+                          "Senior Software Engineer",
+                          "Senior Flutter Developer"
                         ]),
                   ],
                 ),

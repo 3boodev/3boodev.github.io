@@ -29,13 +29,13 @@ void launchURL(String _url) async =>
 
 // Community
 final kCommunityLogo = [
-  'assets/bns.png',
+  // 'assets/bns.png',
   'assets/flutterIsl.png',
   'assets/dsc.png'
 ];
 
 final kCommunityLinks = [
-  "http://www.bsu.edu.eg/",
+  // "http://www.bsu.edu.eg/",
   "https://www.facebook.com/groups/FlutterEgypt",
   "https://gdg.community.dev/gdg-beni-suef/"
 ];
@@ -77,7 +77,6 @@ final kServicesDescriptions = [
 final kServicesLinks = [
   "https://nafezly.com/u/Abdallah_Elshafay",
   "https://github.com/3boodev",
-
   "https://github.com/3boodev",
   "https://medium.com/@a.abdelsamad.al",
   "https://github.com/3boodev"
@@ -174,13 +173,13 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Elnozha - Cairo,Egypt",
-  "(+20) 155 2252349",
+  "Al Olaya, Riyadh, Saudi Arabia",
+  "(+966) 050 2947738",
   "a.abdelsamad.al@gmail.com"
 ];
 
 final kContactLinks = [
-  "https://www.google.com.eg/maps/@30.110497,31.3598704,14.06z?entry=ttu",
-  "https://wa.me/1552252349",
+  "https://www.google.com/maps/place/RHOC3720%D8%8C+3720+%D8%A7%D8%A8%D9%86+%D8%A5%D9%8A%D8%A7%D8%B3+%D8%A7%D9%84%D9%83%D9%86%D8%A7%D9%86%D9%8A%D8%8C+8417%D8%8C+%D8%AD%D9%8A+%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+12333%D8%8C+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%E2%80%AD/@24.7094033,46.6719645,18.06z/data=!4m15!1m8!3m7!1s0x3e2f033bb824b417:0xdc9745cc4a78b2d2!2z2KfZhNi52YTZitin2Iwg2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!3b1!8m2!3d24.695087!4d46.6806472!16s%2Fm%2F02x6g2f!3m5!1s0x3e2f02d35801079f:0x889665f323d771d2!8m2!3d24.7096792!4d46.6711753!16s%2Fg%2F11fpkk0077?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D",
+  "https://wa.me/502947738",
   "a.abdelsamad.al@gmail.com"
 ];

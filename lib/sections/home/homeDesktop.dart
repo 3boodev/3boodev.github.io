@@ -101,8 +101,8 @@ class HomeDesktop extends StatelessWidget {
                                 : Colors.white,
                           ),
                           text: [
-                            " Mobile Developer ",
-                            " Flutter Developer "
+                            "Senior Software Engineer",
+                            "Senior Flutter Developer"
                           ]),
                     ],
                   ),
@@ -113,9 +113,9 @@ class HomeDesktop extends StatelessWidget {
                 FittedBox(
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
-                    children: List.generate(
-                      kSocialIcons.length,
-                      (index) => WidgetAnimator(
+                    children: [
+                      for (int index = 0; index < kSocialIcons.length; index++)
+                      WidgetAnimator(
                         child: SocialMediaIconBtn(
                           icon: kSocialIcons[index],
                           socialLink: kSocialLinks[index],
@@ -123,7 +123,7 @@ class HomeDesktop extends StatelessWidget {
                           horizontalPadding: width * 0.003,
                         ),
                       ),
-                    ),
+                    ],
                   ),
                 ),
               ],

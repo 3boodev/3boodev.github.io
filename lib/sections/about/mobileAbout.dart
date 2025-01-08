@@ -1,4 +1,6 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
@@ -13,7 +15,7 @@ import 'package:folio/widget/toolsTechWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutMobile extends StatelessWidget {
-  final _communityLogoHeight = [40.0, 50.0, 20.0];
+  final _communityLogoHeight = [40.0, 40.0, 40.0];
 
   @override
   Widget build(BuildContext context) {
@@ -28,13 +30,9 @@ class AboutMobile extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me ❤️"),
-          SizedBox(height: 5,),
-          Image.asset(
-            'assets/mob.png',
-            height: height * 0.27,
-          ),
+          // CustomSectionHeading(text: "\nAbout Me"),
+          // CustomSectionSubHeading(text: "Get to know me ❤️"),
+          // SizedBox(height: 5,),
           SizedBox(
             height: height * 0.03,
           ),
@@ -51,25 +49,20 @@ class AboutMobile extends StatelessWidget {
           SizedBox(
             height: height * 0.028,
           ),
+          // Image.asset(
+          //   'assets/mob.png',
+          //   height: height * 0.27,
+          // ),
+
           Text(
-            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
+            "📌 My Current Work as Senior Software Engineer @ Aloo Software Company in KSA. \n📌 Have More than 6 Apps Uploaded on AppStore & Google Play Store \n📌 I'm Interest to BI & Big Data  Development",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
               color: _themeProvider.lightTheme ? Colors.black : Colors.white,
             ),
           ),
-          SizedBox(
-            height: height * 0.02,
-          ),
-          Text(
-            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
-            style: GoogleFonts.montserrat(
-              fontSize: height * 0.018,
-              color: Colors.grey[500],
-              height: 1.5,
-            ),
-          ),
+
           SizedBox(
             height: height * 0.025,
           ),
@@ -93,23 +86,23 @@ class AboutMobile extends StatelessWidget {
           ),
           Row(
             children: [
-              for (int i = 0; i < 4; i++)
+              for (int i = 0; i < kTools.length; i++)
                 ToolTechWidget(
                   techName: kTools[i],
                 ),
             ],
           ),
-          Row(
-            children: [
-              for (int i = 4; i < 7; i++)
-                ToolTechWidget(
-                  techName: kTools[i],
-                ),
-            ],
-          ),
-          SizedBox(
-            height: height * 0.015,
-          ),
+          // Row(
+          //   children: [
+          //     for (int i = 0; i < kTools.length; i++)
+          //       ToolTechWidget(
+          //         techName: kTools[i],
+          //       ),
+          //   ],
+          // ),
+          // SizedBox(
+          //   height: height * 0.015,
+          // ),
           Container(
             decoration: BoxDecoration(
               border: Border(
@@ -122,13 +115,27 @@ class AboutMobile extends StatelessWidget {
           ),
           AboutMeMetaData(
             data: "Name",
-            information: "Abdullah Abdelsamad",
+            information: "Abdullah Alamary",
             alignment: Alignment.centerLeft,
           ),
-          AboutMeMetaData(
-            data: "Email",
-            information: "a.abdelsamad.al@gmail.com",
-            alignment: Alignment.centerLeft,
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              AboutMeMetaData(
+                data: "Email",
+                information: "a.abdelsamad.al@gmail.com",
+                alignment: Alignment.centerLeft,
+              ),
+              SizedBox(width: 10,),
+              IconButton(onPressed: (){
+                Clipboard.setData(
+                    ClipboardData(
+                        text:
+                        'a.abdelsamad.al@gmail.com'));
+                Fluttertoast.showToast(
+                    msg:'Copied');
+              }, icon: Icon(Icons.copy,size: 15,))
+            ],
           ),
           SizedBox(
             height: height * 0.015,
@@ -144,10 +151,10 @@ class AboutMobile extends StatelessWidget {
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(
-                                'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link',
+                                'https://drive.google.com/file/d/1pYHFjUWNU0tZY0bBvKucAq5aZwy0H4kr/view?usp=sharing',
                                 "pdf")
                             : launchURL(
-                                'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link');
+                                'https://drive.google.com/file/d/1pYHFjUWNU0tZY0bBvKucAq5aZwy0H4kr/view?usp=sharing');
                       }),
                 ),
                 Container(

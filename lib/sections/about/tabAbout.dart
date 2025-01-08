@@ -1,4 +1,6 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
@@ -12,7 +14,7 @@ import 'package:folio/widget/toolsTechWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutTab extends StatelessWidget {
-  final _communityLogoHeight = [60.0, 70.0, 30.0];
+  final _communityLogoHeight = [50.0, 50.0, 50.0];
 
   @override
   Widget build(BuildContext context) {
@@ -27,15 +29,15 @@ class AboutTab extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me ❤️"),
-          Image.asset(
-            'assets/mob.png',
-            height: height * 0.3,
-          ),
-          SizedBox(
-            height: height * 0.03,
-          ),
+          // CustomSectionHeading(text: "\nAbout Me"),
+          // CustomSectionSubHeading(text: "Get to know me ❤️"),
+          // Image.asset(
+          //   'assets/mob.png',
+          //   height: height * 0.3,
+          // ),
+          // SizedBox(
+          //   height: height * 0.03,
+          // ),
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
@@ -48,22 +50,11 @@ class AboutTab extends StatelessWidget {
             height: height * 0.032,
           ),
           Text(
-            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
+            "📌 My Current Work as Senior Software Engineer @ Aloo Software Company in KSA. \n📌 Have More than 6 Apps Uploaded on AppStore & Google Play Store \n📌 I'm Interest to BI & Big Data  Development",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.035,
               fontWeight: FontWeight.w400,
               color: _themeProvider.lightTheme ? Colors.black : Colors.white,
-            ),
-          ),
-          SizedBox(
-            height: height * 0.02,
-          ),
-          Text(
-            "I have been working at ACME-Saico Software Company for almost a year as a Software Engineer and Mobile Applications Developer.\nI have been developing mobile apps for over 3 years now. \nI have worked in teams for various Track and Have valuable experience.",
-            style: GoogleFonts.montserrat(
-              fontSize: height * 0.02,
-              color: Colors.grey[500],
-              height: 2.0,
             ),
           ),
           SizedBox(
@@ -129,9 +120,24 @@ class AboutTab extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  AboutMeMetaData(
-                    data: "Email",
-                    information: "a.abdelsamad.al@gmail.com",
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      AboutMeMetaData(
+                        data: "Email",
+                        information: "a.abdelsamad.al@gmail.com",
+                        alignment: Alignment.centerLeft,
+                      ),
+                      SizedBox(width: 10,),
+                      IconButton(onPressed: (){
+                        Clipboard.setData(
+                            ClipboardData(
+                                text:
+                                'a.abdelsamad.al@gmail.com'));
+                        Fluttertoast.showToast(
+                            msg:'Copied');
+                      }, icon: Icon(Icons.copy,size: 15,))
+                    ],
                   ),
                   AboutMeMetaData(
                     data: "From",
@@ -153,10 +159,10 @@ class AboutTab extends StatelessWidget {
                     onPressed: () {
                       kIsWeb
                           ? html.window.open(
-                              'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link',
+                              'https://drive.google.com/file/d/1pYHFjUWNU0tZY0bBvKucAq5aZwy0H4kr/view?usp=sharing',
                               "pdf")
                           : launchURL(
-                              'https://drive.google.com/file/d/1arjHyxx7K1O4v2ZaKPprULTuO8O6lZSJ/view?usp=drive_link');
+                              'https://drive.google.com/file/d/1pYHFjUWNU0tZY0bBvKucAq5aZwy0H4kr/view?usp=sharing');
                     }),
               ),
               Container(
