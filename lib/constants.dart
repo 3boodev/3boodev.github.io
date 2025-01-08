@@ -99,6 +99,7 @@ final kProjectsBanner = [
   "assets/projects/expo-MB.png",
 ];
 
+
 final kProjectsIcons = [
   "assets/projects/medkit.png",
   "assets/projects/hereiam.png",
